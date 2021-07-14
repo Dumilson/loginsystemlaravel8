@@ -8,6 +8,10 @@
     <title>Painel de Administração</title>
 </head>
 <body>
-    <h1>Painel de Administração</h1>
+    <div class="container">
+        <h1>Painel de Administração</h1>
+        <h1>Olá Sr. {{$user->name}}  </h1>
+        <a href=" {{route('admin.logout')}} " class="">Sair</a>
+    </div>
 </body>
 </html>
